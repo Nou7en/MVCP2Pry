@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Mi9t0ms38h47cdX1cyKHcHsd89XNDLiQ6ir+krHTTe5bChIoGULJExRY46rGii1Bg4Xl1v5nEEfeRY+rRwkLqw==",
+  "success": true,
+  "projectFilePath": "D:\\UDLA Trabajos\\Semestre 5\\Programacio IV\\ProyectoP2ApiYMVC\\MVCRestaurante\\MVCRestaurante\\MVCRestaurante\\MVCRestaurante.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\TonyGku\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

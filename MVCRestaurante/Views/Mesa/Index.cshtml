@@ -1,0 +1,178 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Control de Mesas</title>
+    <style>
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #000;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        .mesa-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-top: 4cm;
+        }
+
+        .mesa {
+            width: 300px;
+            height: 200px;
+            margin: 20px;
+            padding: 20px;
+            background-color: #fff;
+            border: 1px solid #007BFF;
+            border-radius: 10px;
+            text-align: center;
+            display: inline-block;
+        }
+
+            .mesa h2 {
+                font-size: 24px;
+                color: #007BFF;
+            }
+
+            .mesa .visualizar-button {
+                background-color: #000;
+                color: white;
+                border: none;
+                padding: 10px 20px;
+                font-size: 18px;
+                margin: 10px;
+                cursor: pointer;
+                transition: background-color 0.3s;
+            }
+
+                .mesa .visualizar-button:hover {
+                    background-color: #333;
+                }
+
+            .mesa .terminar-button {
+                background-color: #007BFF;
+                color: white;
+                border: none;
+                padding: 10px 20px;
+                font-size: 18px;
+                margin: 10px;
+                cursor: pointer;
+                transition: background-color 0.3s;
+            }
+
+                .mesa .terminar-button:hover {
+                    background-color: #00529B;
+                }
+
+        #popupBackground {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            z-index: 1;
+        }
+
+        #popup {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: #000;
+            border: 1px solid #000;
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+            z-index: 2;
+        }
+
+            #popup button {
+                background-color: #007BFF;
+                color: white;
+                border: none;
+                padding: 10px 20px;
+                font-size: 18px;
+                cursor: pointer;
+                transition: background-color 0.3s;
+            }
+
+                #popup button:hover {
+                    background-color: #00529B;
+                }
+    </style>
+</head>
+<body>
+    <div class="mesa-container">
+        <div class="mesa">
+            <h2>Mesa 1</h2>
+            <button class="visualizar-button" onclick="mostrarPopup(this)">Visualizar Pedido</button>
+            <a href="@Url.Action("Index", "Factura")"><button class="terminar-button">Terminar Mesa</button></a>
+        </div>
+
+        <div class="mesa">
+            <h2>Mesa 2</h2>
+            <button class="visualizar-button" onclick="mostrarPopup(this)">Visualizar Pedido</button>
+            <a href="@Url.Action("Index", "Factura")"><button class="terminar-button">Terminar Mesa</button></a>
+        </div>
+
+        <div class="mesa">
+            <h2>Mesa 3</h2>
+            <button class="visualizar-button" onclick="mostrarPopup(this)">Visualizar Pedido</button>
+            <a href="@Url.Action("Index", "Factura")"><button class="terminar-button">Terminar Mesa</button></a>
+        </div>
+
+        <div class="mesa">
+            <h2>Mesa 4</h2>
+            <button class="visualizar-button" onclick="mostrarPopup(this)">Visualizar Pedido</button>
+            <a href="@Url.Action("Index", "Factura")"><button class="terminar-button">Terminar Mesa</button></a>
+        </div>
+
+        <div class="mesa">
+            <h2>Mesa 5</h2>
+            <button class="visualizar-button" onclick="mostrarPopup(this)">Visualizar Pedido</button>
+            <a href="@Url.Action("Index", "Factura")"><button class="terminar-button">Terminar Mesa</button></a>
+        </div>
+
+        <div class="mesa">
+            <h2>Mesa 6</h2>
+            <button class="visualizar-button" onclick="mostrarPopup(this)">Visualizar Pedido</button>
+            <a href="@Url.Action("Index", "Factura")"><button class="terminar-button">Terminar Mesa</button></a>
+        </div>
+    </div>
+
+    <!-- Pop-up -->
+    <div id="popupBackground"></div>
+    <div id="popup">
+        <h3>Información del Pedido</h3>
+        <p>Coloca aquí la información que deseas mostrar.</p>
+        <button id="closePopupButton">OK</button>
+    </div>
+
+    <script>
+        // Obtén el botón "OK" en el pop-up
+        const closePopupButton = document.getElementById('closePopupButton');
+
+        function mostrarPopup(button) {
+            const popup = document.getElementById('popup');
+            const popupBackground = document.getElementById('popupBackground');
+            // Agrega un evento de clic al botón "OK" en el pop-up para cerrarlo
+            closePopupButton.addEventListener('click', function () {
+                // Oculta el pop-up y el fondo semitransparente
+                popup.style.display = 'none';
+                popupBackground.style.display = 'none';
+            });
+            // Muestra el pop-up y el fondo semitransparente
+            popup.style.display = 'block';
+            popupBackground.style.display = 'block';
+        }
+    </script>
+</body>
+</html>

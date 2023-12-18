@@ -1,0 +1,117 @@
+﻿@model MVCRestaurante.ViewModels.MenuViewModel
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #000;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+
+        .menu-container {
+            max-width: 15000px;
+            margin: 3cm auto 0;
+            background-color: #2c2f34;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+
+        h1 {
+            text-align: center;
+            color: #fff;
+            margin-bottom: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            background-color: #35383d;
+        }
+
+        th, td {
+            padding: 10px 12px;
+            border: 1px solid #ccc;
+            text-align: center;
+        }
+
+        th {
+            background-color: #000;
+            color: #fff;
+        }
+
+        tr:nth-child(even) {
+            background-color: #404247;
+        }
+
+        .btn-group {
+            display: flex;
+            justify-content: center;
+            gap: 5px;
+        }
+
+        .btn {
+            padding: 8px 16px;
+            cursor: pointer;
+            border-radius: 5px;
+            color: #fff;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+
+        .btn-danger {
+            background-color: #336699;
+        }
+
+        .btn-primary {
+            background-color: #4169E1;
+        }
+
+        .btn:hover {
+            filter: brightness(1.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="menu-container">
+        <h1>Menú del Restaurante</h1>
+
+        <table>
+            <thead>
+                <tr>
+                    <th scope="col">ID PLATO</th>
+                    <th scope="col">NOMBRE</th>
+                    <th scope="col">DESCRIPCIÓN</th>
+                    <th scope="col">PRECIO</th>
+                    <th scope="col">Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.menu)
+                {
+                    <tr>
+                        <td>@item.IdPlato</td>
+                        <td>@item.NombrePlato</td>
+                        <td>@item.DescripcionPlato</td>
+                        <td>@item.Precio</td>
+                        <td>
+                            <div class="btn-group" role="group" aria-label="Acciones">
+                                <a asp-action="Editar" asp-route-IdPlato="@item.IdPlato" class="btn btn-danger">Editar<i class="bi bi-trash-fill"></i></a>
+                                <a asp-action="EliminarPlato" asp-route-IdPlato="@item.IdPlato" class="btn btn-danger">Eliminar<i class="bi bi-trash-fill"></i></a>
+                                <a asp-action="Detalles" asp-route-IdPlato="@item.IdPlato" class="btn btn-danger">Detalles<i class="bi bi-trash-fill"></i></a>
+                            </div>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+        <button type="button" class="btn btn-primary" onclick="location.href='@Url.Action("Crear", "Menu")'">Nuevo Plato</button>
+    </div>
+</body>
+</html>

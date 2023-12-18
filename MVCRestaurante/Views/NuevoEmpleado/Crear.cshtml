@@ -1,0 +1,104 @@
+﻿@model MVCRestaurante.ViewModels.NuevoEmpleadoViewModel
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Usuario Empleado</title>
+    <style>
+        body {
+            background-color: #000;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        h2 {
+            color: #fff;
+            margin-top: 100px; /* Ajusta el margen superior según tus necesidades */
+        }
+
+        form {
+            display: inline-block;
+            text-align: left;
+            background-color: #000;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
+            margin: 20px auto;
+            max-width: 600px; /* Ajusta el ancho del formulario según tus necesidades */
+            width: 100%;
+        }
+
+        label {
+            display: block;
+            margin-top: 10px;
+            color: #fff;
+        }
+
+        input,
+        select {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+        }
+
+            input[type="submit"] {
+                background-color: #007BFF;
+                color: #fff;
+                cursor: pointer;
+            }
+
+        #RegistrarButton {
+            background-color: #000;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 20px;
+            cursor: pointer;
+            border-radius: 5px;
+            margin-top: 2cm;
+        }
+    </style>
+</head>
+ private List<SelectListItem> GetRoles() 
+    {
+        return new List<SelectListItem>
+        {
+           new SelectListItem { Value = "administrador", Text = "Administrador" },
+           new SelectListItem { Value = "empleado", Text = "Empleado" }
+       };
+    }
+<body>
+    <h2>Crear Usuario Empleado</h2>
+    <form action="procesar_registro.php" method="post" asp-action="CrearEmpleado" asp-controller="NuevoEmpleado">
+        <label >Nombre:</label>
+        <input asp-for="uEmpleado.Nombre" required>
+
+        <label >Apellido:</label>
+        <input asp-for="uEmpleado.Apellido" required>
+
+        <label >Usuario:</label>
+        <input asp-for="uEmpleado.NombreUsuario" required>
+
+        <label >Clave:</label>
+        <input asp-for="uEmpleado.Clave" required>
+
+        <label for="roles">Roles:</label>
+        <select asp-for="uEmpleado.Rol">
+            <option value="Administrador">Administrador</option>
+            <option value="Empleado">Empleado</option>
+        </select>
+
+        <button id="RegistrarButton">Registrar</button>
+    </form>
+   
+     
+</body>
+
+</html>
+

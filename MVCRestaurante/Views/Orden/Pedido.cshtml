@@ -1,0 +1,185 @@
+﻿@using MVCRestaurante.Models;
+@using MVCRestaurante.Models.Dto;
+@model MVCRestaurante.ViewModels.OrdenViewModel
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #000;
+        }
+
+        .menu-container {
+            max-width: 15000px;
+            margin: 3cm auto 0; /* Mueve el contenedor 3 cm hacia abajo desde el borde superior */
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            text-align: center; /* Centra el contenido horizontalmente Nombre, n*/
+        }
+
+        }
+
+        h1 {
+            text-align: center;
+            color: #000;
+        }
+
+        label {
+            display: block;
+            margin-top: 15px;
+            color: #000;
+        }
+
+        select {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            padding: 10px 12px;
+            border: 1px solid #ccc;
+            text-align: center; /* Centra el contenido */
+        }
+
+        th {
+            background-color: #000;
+            color: #fff;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        .increment-decrement-container {
+            display: flex;
+            align-items: center;
+            justify-content: center; /* Centra los botones y el contador */
+        }
+
+        .increment-button {
+            background-color: #007BFF;
+            color: #fff;
+            border: none;
+            padding: 5px 10px;
+            cursor: pointer;
+            margin: 0 5px;
+            border-radius: 5px;
+        }
+
+        .decrement-button {
+            background-color: #FF0000;
+            color: #fff;
+            border: none;
+            padding: 5px 10px;
+            cursor: pointer;
+            margin: 0 5px;
+            border-radius: 5px;
+        }
+
+        .contador {
+            font-size: 18px;
+            margin: 0 5px;
+        }
+
+        #ordenar-button {
+            background-color: #000;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+
+            #ordenar-button:hover {
+                background-color: #333;
+            }
+
+
+        #botonContainer {
+            position: absolute;
+            bottom: 3cm; /* Cambio para mover el botón 2 cm arriba de la parte inferior */
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        #realizarPedido{
+            background-color: #000;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 20px;
+            cursor: pointer;
+            border-radius: 5px;
+            margin-top: 2cm; /* Espacio de 2 cm desde el elemento anterior */
+        }
+    </style>
+</head>
+<body>
+    <div class="menu-container">
+        <h1 style="color: #000;">Menu del restaurante</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID PLATO</th>
+                    <th>NOMBRE</th>
+                    <th>PRECIO</th>
+                    <th>CANTIDAD</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+
+            @foreach (var item in Model.menu){
+                @foreach (var platoOr in Model.pedido)
+                {
+                    var plato = new PlatoOrden();
+                    if (item.IdPlato == platoOr.IdPlato)
+                    {
+                        plato = platoOr;
+                    }
+                    <tr>
+                    <td scope="row">@item.IdPlato</td>
+                    <td>@item.NombrePlato</td>
+                    <td>@item.Precio</td>
+                    <td>@item.NombrePlato</td>
+                    <td>
+                        <a asp-for="@plato.Cantidad" class="contador">0</a>
+                        <button class="decrement-button" onclick="decrementar(this)">-</button>
+                        <button class="increment-button" onclick="incrementar(this)">+</button>
+                    </td>
+
+                </tr>
+                }
+                
+            }
+
+        </table>
+    </div>
+    <script>
+        function incrementar(button) {
+            var contador = button.parentElement.querySelector('.contador');
+            contador.textContent = parseInt(contador.textContent) + 1;
+        }
+
+        function decrementar(button) {
+            var contador = button.parentElement.querySelector('.contador');
+            var valor = parseInt(contador.textContent);
+            if (valor > 0) {
+                contador.textContent = valor - 1;
+            }
+        }
+    </script>
+</body>
+</html>

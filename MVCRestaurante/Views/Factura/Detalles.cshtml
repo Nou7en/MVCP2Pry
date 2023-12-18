@@ -1,0 +1,126 @@
+﻿@model Factura
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1c1e22;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+
+        .invoice-details {
+            max-width: 800px;
+            margin: 3cm auto 0;
+            background-color: #2c2f34;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+
+        h1 {
+            text-align: center;
+            color: #fff;
+            margin-bottom: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            background-color: #35383d;
+        }
+
+        th, td {
+            padding: 10px 12px;
+            border: 1px solid #ccc;
+            text-align: left;
+            color: #fff;
+        }
+
+        th {
+            background-color: #000;
+        }
+
+        tr:nth-child(even) {
+            background-color: #404247;
+        }
+
+        .row {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        .btn {
+            padding: 12px 24px;
+            cursor: pointer;
+            border-radius: 5px;
+            color: #fff;
+            text-decoration: none;
+            transition: background-color 0.3s;
+            border: none;
+            margin: 0 10px;
+        }
+
+        .btn-outline-secondary {
+            background-color: transparent;
+            border: 1px solid #6c757d;
+        }
+
+            .btn-outline-secondary:hover {
+                background-color: #6c757d;
+            }
+
+        .btn:hover {
+            filter: brightness(1.1);
+        }
+
+        .readonly-field {
+            background-color: #42474f;
+            border: none;
+            width: calc(100% - 22px);
+            padding: 8px;
+            border-radius: 5px;
+            color: #fff;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="invoice-details">
+        <h1>Detalle Factura</h1>
+
+        <table>
+            <tr>
+                <th>Id Factura:</th>
+                <td><input asp-for="IdFactura" class="readonly-field" readonly /></td>
+            </tr>
+            <tr>
+                <th>Id Orden:</th>
+                <td><input asp-for="IdOrden" class="readonly-field" readonly /></td>
+            </tr>
+            <tr>
+                <th>Nombre:</th>
+                <td><input asp-for="Nombre" class="readonly-field" readonly /></td>
+            </tr>
+            <tr>
+                <th>Dirección:</th>
+                <td><textarea asp-for="Direccion" class="readonly-field" readonly></textarea></td>
+            </tr>
+            <tr>
+                <th>Total:</th>
+                <td><input asp-for="Total" class="readonly-field" readonly /></td>
+            </tr>
+        </table>
+
+        <div class="row">
+            <a asp-action="Index" class="btn btn-outline-secondary">Regresar</a>
+        </div>
+    </div>
+</body>
+</html>

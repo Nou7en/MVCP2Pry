@@ -1,0 +1,99 @@
+C:\Users\Carlos Esteban Larco\source\repos\MVCRestaurante\MVCRestaurante\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\Carlos Esteban Larco\source\repos\MVCRestaurante\MVCRestaurante\bin\Debug\net7.0\appsettings.json
+C:\Users\Carlos Esteban Larco\source\repos\MVCRestaurante\MVCRestaurante\bin\Debug\net7.0\MVCRestaurante.staticwebassets.runtime.json
+C:\Users\Carlos Esteban Larco\source\repos\MVCRestaurante\MVCRestaurante\bin\Debug\net7.0\MVCRestaurante.exe
+C:\Users\Carlos Esteban Larco\source\repos\MVCRestaurante\MVCRestaurante\bin\Debug\net7.0\MVCRestaurante.deps.json
+C:\Users\Carlos Esteban Larco\source\repos\MVCRestaurante\MVCRestaurante\bin\Debug\net7.0\MVCRestaurante.runtimeconfig.json
+C:\Users\Carlos Esteban Larco\source\repos\MVCRestaurante\MVCRestaurante\bin\Debug\net7.0\MVCRestaurante.dll
+C:\Users\Carlos Esteban Larco\source\repos\MVCRestaurante\MVCRestaurante\bin\Debug\net7.0\MVCRestaurante.pdb
+C:\Users\Carlos Esteban Larco\source\repos\MVCRestaurante\MVCRestaurante\obj\Debug\net7.0\MVCRestaurante.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Carlos Esteban Larco\source\repos\MVCRestaurante\MVCRestaurante\obj\Debug\net7.0\MVCRestaurante.AssemblyInfoInputs.cache
+C:\Users\Carlos Esteban Larco\source\repos\MVCRestaurante\MVCRestaurante\obj\Debug\net7.0\MVCRestaurante.AssemblyInfo.cs
+C:\Users\Carlos Esteban Larco\source\repos\MVCRestaurante\MVCRestaurante\obj\Debug\net7.0\MVCRestaurante.csproj.CoreCompileInputs.cache
+C:\Users\Carlos Esteban Larco\source\repos\MVCRestaurante\MVCRestaurante\obj\Debug\net7.0\MVCRestaurante.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Carlos Esteban Larco\source\repos\MVCRestaurante\MVCRestaurante\obj\Debug\net7.0\MVCRestaurante.RazorAssemblyInfo.cache
+C:\Users\Carlos Esteban Larco\source\repos\MVCRestaurante\MVCRestaurante\obj\Debug\net7.0\MVCRestaurante.RazorAssemblyInfo.cs
+C:\Users\Carlos Esteban Larco\source\repos\MVCRestaurante\MVCRestaurante\obj\Debug\net7.0\staticwebassets\msbuild.MVCRestaurante.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Carlos Esteban Larco\source\repos\MVCRestaurante\MVCRestaurante\obj\Debug\net7.0\staticwebassets\msbuild.build.MVCRestaurante.props
+C:\Users\Carlos Esteban Larco\source\repos\MVCRestaurante\MVCRestaurante\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.MVCRestaurante.props
+C:\Users\Carlos Esteban Larco\source\repos\MVCRestaurante\MVCRestaurante\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.MVCRestaurante.props
+C:\Users\Carlos Esteban Larco\source\repos\MVCRestaurante\MVCRestaurante\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\Carlos Esteban Larco\source\repos\MVCRestaurante\MVCRestaurante\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\Carlos Esteban Larco\source\repos\MVCRestaurante\MVCRestaurante\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\Carlos Esteban Larco\source\repos\MVCRestaurante\MVCRestaurante\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Carlos Esteban Larco\source\repos\MVCRestaurante\MVCRestaurante\obj\Debug\net7.0\scopedcss\bundle\MVCRestaurante.styles.css
+C:\Users\Carlos Esteban Larco\source\repos\MVCRestaurante\MVCRestaurante\obj\Debug\net7.0\scopedcss\projectbundle\MVCRestaurante.bundle.scp.css
+C:\Users\Carlos Esteban Larco\source\repos\MVCRestaurante\MVCRestaurante\obj\Debug\net7.0\MVCRestaurante.dll
+C:\Users\Carlos Esteban Larco\source\repos\MVCRestaurante\MVCRestaurante\obj\Debug\net7.0\refint\MVCRestaurante.dll
+C:\Users\Carlos Esteban Larco\source\repos\MVCRestaurante\MVCRestaurante\obj\Debug\net7.0\MVCRestaurante.pdb
+C:\Users\Carlos Esteban Larco\source\repos\MVCRestaurante\MVCRestaurante\obj\Debug\net7.0\MVCRestaurante.genruntimeconfig.cache
+C:\Users\Carlos Esteban Larco\source\repos\MVCRestaurante\MVCRestaurante\obj\Debug\net7.0\ref\MVCRestaurante.dll
+C:\Users\Carlos Esteban Larco\source\repos\MVCRestaurante\MVCRestaurante\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\Carlos Esteban Larco\source\repos\MVCRestaurante\MVCRestaurante\obj\Debug\net7.0\MVCRestaurante.csproj.AssemblyReference.cache
+C:\Users\Carlos Esteban Larco\source\repos\MVCRestaurante\MVCRestaurante\obj\Debug\net7.0\MVCRestaurante.csproj.CopyComplete
+C:\Users\carlo\Downloads\MVCRestaurante\MVCRestaurante\MVCRestaurante\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\carlo\Downloads\MVCRestaurante\MVCRestaurante\MVCRestaurante\bin\Debug\net7.0\appsettings.json
+C:\Users\carlo\Downloads\MVCRestaurante\MVCRestaurante\MVCRestaurante\bin\Debug\net7.0\MVCRestaurante.staticwebassets.runtime.json
+C:\Users\carlo\Downloads\MVCRestaurante\MVCRestaurante\MVCRestaurante\bin\Debug\net7.0\MVCRestaurante.exe
+C:\Users\carlo\Downloads\MVCRestaurante\MVCRestaurante\MVCRestaurante\bin\Debug\net7.0\MVCRestaurante.deps.json
+C:\Users\carlo\Downloads\MVCRestaurante\MVCRestaurante\MVCRestaurante\bin\Debug\net7.0\MVCRestaurante.runtimeconfig.json
+C:\Users\carlo\Downloads\MVCRestaurante\MVCRestaurante\MVCRestaurante\bin\Debug\net7.0\MVCRestaurante.dll
+C:\Users\carlo\Downloads\MVCRestaurante\MVCRestaurante\MVCRestaurante\bin\Debug\net7.0\MVCRestaurante.pdb
+C:\Users\carlo\Downloads\MVCRestaurante\MVCRestaurante\MVCRestaurante\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\carlo\Downloads\MVCRestaurante\MVCRestaurante\MVCRestaurante\obj\Debug\net7.0\MVCRestaurante.csproj.AssemblyReference.cache
+C:\Users\carlo\Downloads\MVCRestaurante\MVCRestaurante\MVCRestaurante\obj\Debug\net7.0\MVCRestaurante.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\carlo\Downloads\MVCRestaurante\MVCRestaurante\MVCRestaurante\obj\Debug\net7.0\MVCRestaurante.AssemblyInfoInputs.cache
+C:\Users\carlo\Downloads\MVCRestaurante\MVCRestaurante\MVCRestaurante\obj\Debug\net7.0\MVCRestaurante.AssemblyInfo.cs
+C:\Users\carlo\Downloads\MVCRestaurante\MVCRestaurante\MVCRestaurante\obj\Debug\net7.0\MVCRestaurante.csproj.CoreCompileInputs.cache
+C:\Users\carlo\Downloads\MVCRestaurante\MVCRestaurante\MVCRestaurante\obj\Debug\net7.0\MVCRestaurante.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\carlo\Downloads\MVCRestaurante\MVCRestaurante\MVCRestaurante\obj\Debug\net7.0\MVCRestaurante.RazorAssemblyInfo.cache
+C:\Users\carlo\Downloads\MVCRestaurante\MVCRestaurante\MVCRestaurante\obj\Debug\net7.0\MVCRestaurante.RazorAssemblyInfo.cs
+C:\Users\carlo\Downloads\MVCRestaurante\MVCRestaurante\MVCRestaurante\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\carlo\Downloads\MVCRestaurante\MVCRestaurante\MVCRestaurante\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\carlo\Downloads\MVCRestaurante\MVCRestaurante\MVCRestaurante\obj\Debug\net7.0\staticwebassets\msbuild.MVCRestaurante.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\carlo\Downloads\MVCRestaurante\MVCRestaurante\MVCRestaurante\obj\Debug\net7.0\staticwebassets\msbuild.build.MVCRestaurante.props
+C:\Users\carlo\Downloads\MVCRestaurante\MVCRestaurante\MVCRestaurante\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.MVCRestaurante.props
+C:\Users\carlo\Downloads\MVCRestaurante\MVCRestaurante\MVCRestaurante\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.MVCRestaurante.props
+C:\Users\carlo\Downloads\MVCRestaurante\MVCRestaurante\MVCRestaurante\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\carlo\Downloads\MVCRestaurante\MVCRestaurante\MVCRestaurante\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\carlo\Downloads\MVCRestaurante\MVCRestaurante\MVCRestaurante\obj\Debug\net7.0\scopedcss\bundle\MVCRestaurante.styles.css
+C:\Users\carlo\Downloads\MVCRestaurante\MVCRestaurante\MVCRestaurante\obj\Debug\net7.0\scopedcss\projectbundle\MVCRestaurante.bundle.scp.css
+C:\Users\carlo\Downloads\MVCRestaurante\MVCRestaurante\MVCRestaurante\obj\Debug\net7.0\MVCRestaurante.csproj.CopyComplete
+C:\Users\carlo\Downloads\MVCRestaurante\MVCRestaurante\MVCRestaurante\obj\Debug\net7.0\MVCRestaurante.dll
+C:\Users\carlo\Downloads\MVCRestaurante\MVCRestaurante\MVCRestaurante\obj\Debug\net7.0\refint\MVCRestaurante.dll
+C:\Users\carlo\Downloads\MVCRestaurante\MVCRestaurante\MVCRestaurante\obj\Debug\net7.0\MVCRestaurante.pdb
+C:\Users\carlo\Downloads\MVCRestaurante\MVCRestaurante\MVCRestaurante\obj\Debug\net7.0\MVCRestaurante.genruntimeconfig.cache
+C:\Users\carlo\Downloads\MVCRestaurante\MVCRestaurante\MVCRestaurante\obj\Debug\net7.0\ref\MVCRestaurante.dll
+D:\UDLA Trabajos\Semestre 5\Programacio IV\ProyectoP2ApiYMVC\MVCRestaurante\MVCRestaurante\MVCRestaurante\obj\Debug\net7.0\MVCRestaurante.csproj.AssemblyReference.cache
+D:\UDLA Trabajos\Semestre 5\Programacio IV\ProyectoP2ApiYMVC\MVCRestaurante\MVCRestaurante\MVCRestaurante\obj\Debug\net7.0\MVCRestaurante.GeneratedMSBuildEditorConfig.editorconfig
+D:\UDLA Trabajos\Semestre 5\Programacio IV\ProyectoP2ApiYMVC\MVCRestaurante\MVCRestaurante\MVCRestaurante\obj\Debug\net7.0\MVCRestaurante.AssemblyInfoInputs.cache
+D:\UDLA Trabajos\Semestre 5\Programacio IV\ProyectoP2ApiYMVC\MVCRestaurante\MVCRestaurante\MVCRestaurante\obj\Debug\net7.0\MVCRestaurante.AssemblyInfo.cs
+D:\UDLA Trabajos\Semestre 5\Programacio IV\ProyectoP2ApiYMVC\MVCRestaurante\MVCRestaurante\MVCRestaurante\obj\Debug\net7.0\MVCRestaurante.csproj.CoreCompileInputs.cache
+D:\UDLA Trabajos\Semestre 5\Programacio IV\ProyectoP2ApiYMVC\MVCRestaurante\MVCRestaurante\MVCRestaurante\obj\Debug\net7.0\MVCRestaurante.MvcApplicationPartsAssemblyInfo.cache
+D:\UDLA Trabajos\Semestre 5\Programacio IV\ProyectoP2ApiYMVC\MVCRestaurante\MVCRestaurante\MVCRestaurante\obj\Debug\net7.0\MVCRestaurante.RazorAssemblyInfo.cache
+D:\UDLA Trabajos\Semestre 5\Programacio IV\ProyectoP2ApiYMVC\MVCRestaurante\MVCRestaurante\MVCRestaurante\obj\Debug\net7.0\MVCRestaurante.RazorAssemblyInfo.cs
+D:\UDLA Trabajos\Semestre 5\Programacio IV\ProyectoP2ApiYMVC\MVCRestaurante\MVCRestaurante\MVCRestaurante\obj\Debug\net7.0\MVCRestaurante.dll
+D:\UDLA Trabajos\Semestre 5\Programacio IV\ProyectoP2ApiYMVC\MVCRestaurante\MVCRestaurante\MVCRestaurante\obj\Debug\net7.0\refint\MVCRestaurante.dll
+D:\UDLA Trabajos\Semestre 5\Programacio IV\ProyectoP2ApiYMVC\MVCRestaurante\MVCRestaurante\MVCRestaurante\obj\Debug\net7.0\MVCRestaurante.pdb
+D:\UDLA Trabajos\Semestre 5\Programacio IV\ProyectoP2ApiYMVC\MVCRestaurante\MVCRestaurante\MVCRestaurante\bin\Debug\net7.0\appsettings.Development.json
+D:\UDLA Trabajos\Semestre 5\Programacio IV\ProyectoP2ApiYMVC\MVCRestaurante\MVCRestaurante\MVCRestaurante\bin\Debug\net7.0\appsettings.json
+D:\UDLA Trabajos\Semestre 5\Programacio IV\ProyectoP2ApiYMVC\MVCRestaurante\MVCRestaurante\MVCRestaurante\bin\Debug\net7.0\MVCRestaurante.staticwebassets.runtime.json
+D:\UDLA Trabajos\Semestre 5\Programacio IV\ProyectoP2ApiYMVC\MVCRestaurante\MVCRestaurante\MVCRestaurante\bin\Debug\net7.0\MVCRestaurante.exe
+D:\UDLA Trabajos\Semestre 5\Programacio IV\ProyectoP2ApiYMVC\MVCRestaurante\MVCRestaurante\MVCRestaurante\bin\Debug\net7.0\MVCRestaurante.deps.json
+D:\UDLA Trabajos\Semestre 5\Programacio IV\ProyectoP2ApiYMVC\MVCRestaurante\MVCRestaurante\MVCRestaurante\bin\Debug\net7.0\MVCRestaurante.runtimeconfig.json
+D:\UDLA Trabajos\Semestre 5\Programacio IV\ProyectoP2ApiYMVC\MVCRestaurante\MVCRestaurante\MVCRestaurante\bin\Debug\net7.0\MVCRestaurante.dll
+D:\UDLA Trabajos\Semestre 5\Programacio IV\ProyectoP2ApiYMVC\MVCRestaurante\MVCRestaurante\MVCRestaurante\bin\Debug\net7.0\MVCRestaurante.pdb
+D:\UDLA Trabajos\Semestre 5\Programacio IV\ProyectoP2ApiYMVC\MVCRestaurante\MVCRestaurante\MVCRestaurante\bin\Debug\net7.0\Newtonsoft.Json.dll
+D:\UDLA Trabajos\Semestre 5\Programacio IV\ProyectoP2ApiYMVC\MVCRestaurante\MVCRestaurante\MVCRestaurante\obj\Debug\net7.0\staticwebassets\msbuild.MVCRestaurante.Microsoft.AspNetCore.StaticWebAssets.props
+D:\UDLA Trabajos\Semestre 5\Programacio IV\ProyectoP2ApiYMVC\MVCRestaurante\MVCRestaurante\MVCRestaurante\obj\Debug\net7.0\staticwebassets\msbuild.build.MVCRestaurante.props
+D:\UDLA Trabajos\Semestre 5\Programacio IV\ProyectoP2ApiYMVC\MVCRestaurante\MVCRestaurante\MVCRestaurante\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.MVCRestaurante.props
+D:\UDLA Trabajos\Semestre 5\Programacio IV\ProyectoP2ApiYMVC\MVCRestaurante\MVCRestaurante\MVCRestaurante\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.MVCRestaurante.props
+D:\UDLA Trabajos\Semestre 5\Programacio IV\ProyectoP2ApiYMVC\MVCRestaurante\MVCRestaurante\MVCRestaurante\obj\Debug\net7.0\staticwebassets.pack.json
+D:\UDLA Trabajos\Semestre 5\Programacio IV\ProyectoP2ApiYMVC\MVCRestaurante\MVCRestaurante\MVCRestaurante\obj\Debug\net7.0\staticwebassets.build.json
+D:\UDLA Trabajos\Semestre 5\Programacio IV\ProyectoP2ApiYMVC\MVCRestaurante\MVCRestaurante\MVCRestaurante\obj\Debug\net7.0\staticwebassets.development.json
+D:\UDLA Trabajos\Semestre 5\Programacio IV\ProyectoP2ApiYMVC\MVCRestaurante\MVCRestaurante\MVCRestaurante\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\UDLA Trabajos\Semestre 5\Programacio IV\ProyectoP2ApiYMVC\MVCRestaurante\MVCRestaurante\MVCRestaurante\obj\Debug\net7.0\scopedcss\bundle\MVCRestaurante.styles.css
+D:\UDLA Trabajos\Semestre 5\Programacio IV\ProyectoP2ApiYMVC\MVCRestaurante\MVCRestaurante\MVCRestaurante\obj\Debug\net7.0\scopedcss\projectbundle\MVCRestaurante.bundle.scp.css
+D:\UDLA Trabajos\Semestre 5\Programacio IV\ProyectoP2ApiYMVC\MVCRestaurante\MVCRestaurante\MVCRestaurante\obj\Debug\net7.0\MVCRestaurante.csproj.CopyComplete
+D:\UDLA Trabajos\Semestre 5\Programacio IV\ProyectoP2ApiYMVC\MVCRestaurante\MVCRestaurante\MVCRestaurante\obj\Debug\net7.0\MVCRestaurante.genruntimeconfig.cache
+D:\UDLA Trabajos\Semestre 5\Programacio IV\ProyectoP2ApiYMVC\MVCRestaurante\MVCRestaurante\MVCRestaurante\obj\Debug\net7.0\ref\MVCRestaurante.dll

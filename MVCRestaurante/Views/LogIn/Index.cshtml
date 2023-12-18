@@ -1,0 +1,81 @@
+﻿@using MVCRestaurante.Models;
+@using MVCRestaurante.Models.Dto;
+@model UsuarioCredencial
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesión</title>
+    <style>
+        body {
+            background-color: black;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        #login-container {
+            background-color: white;
+            padding: 40px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+            max-width: 400px;
+            width: 100%;
+        }
+
+        h2 {
+            color: #007BFF;
+        }
+
+        input {
+            width: calc(100% - 20px);
+            padding: 10px;
+            margin: 10px 0;
+            box-sizing: border-box;
+            color: black;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        button {
+            background-color: #007BFF;
+            color: white;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+
+        #registro-link {
+            margin-top: 20px;
+            color: #007BFF;
+        }
+    </style>
+</head>
+<body>
+    <div id="login-container">
+        <h2>Iniciar Sesión</h2>
+        <form method="post" asp-action="LogIn" asp-controller="LogIn">
+            <label >Usuario:</label>
+            <input type="text" asp-for="NombreUsuario" required>
+
+            <label >Contraseña:</label>
+            <input type="password" asp-for="Clave" required>
+
+            <button>Iniciar Sesión</button>
+        </form>
+
+        <p id="registro-link">¿No tienes una cuenta? <a href="#">Regístrate</a></p>
+    </div>
+</body>
+</html>

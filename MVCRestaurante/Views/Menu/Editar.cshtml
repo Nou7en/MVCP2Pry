@@ -1,0 +1,136 @@
+﻿@model Plato
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #000;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+
+        .menu-container {
+            max-width: 600px; /* Ajusta el ancho máximo del contenedor */
+            margin: 3cm auto 0;
+            background-color: #2c2f34;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+
+        h1 {
+            text-align: center;
+            color: #fff;
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-top: 15px;
+            color: #fff;
+        }
+
+        textarea,
+        input {
+            width: calc(100% - 22px); /* Ajusta el ancho de los campos de entrada */
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #42474f;
+            color: #fff;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            background-color: #35383d;
+        }
+
+        th,
+        td {
+            padding: 10px 12px;
+            border: 1px solid #ccc;
+            text-align: center;
+            color: #fff;
+        }
+
+        th {
+            background-color: #000;
+        }
+
+        tr:nth-child(even) {
+            background-color: #404247;
+        }
+
+        .form-group {
+            margin-bottom: 15px; /* Añade un espacio entre los grupos de formulario */
+        }
+
+        .row {
+            display: flex;
+            justify-content: space-between; /* Espacio entre los elementos de la fila */
+            align-items: center; /* Alinea verticalmente los elementos */
+        }
+
+        .btn {
+            padding: 10px 20px; /* Ajusta el padding de los botones */
+            cursor: pointer;
+            border-radius: 5px;
+            color: #fff;
+            text-decoration: none;
+            transition: background-color 0.3s;
+            border: none;
+        }
+
+        .btn-primary {
+            background-color: #007bff;
+        }
+
+        .btn-outline-secondary {
+            background-color: transparent;
+            border: 1px solid #6c757d;
+        }
+
+            .btn-outline-secondary:hover {
+                background-color: #6c757d;
+            }
+
+        .btn:hover {
+            filter: brightness(1.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="menu-container">
+        <h1>Editar Plato</h1>
+
+        <form method="post">
+            <input asp-for="IdPlato" hidden />
+            <div class="form-group">
+                <label class="Datos">Nombre:</label>
+                <input asp-for="NombrePlato" class="form-control" />
+            </div>
+
+            <div class="form-group">
+                <label class="Datos">Descripción:</label>
+                <textarea asp-for="DescripcionPlato" class="form-control"></textarea>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
+            </div>
+
+            <div class="form-group">
+                <label class="Datos">Precio:</label>
+                <input asp-for="Precio" class="form-control" />
+            </div>
+
+            <div class="row">
+                <button type="submit" class="btn btn-primary">Guardar</button>
+                <a asp-action="Index" class="btn btn-outline-secondary">Regresar</a>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

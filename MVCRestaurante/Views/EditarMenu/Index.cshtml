@@ -1,0 +1,185 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #000;
+        }
+
+        .menu-container {
+            max-width: 15000px;
+            margin: 3cm auto 0;
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+
+        h1 {
+            text-align: center;
+            color: #000;
+        }
+
+        label {
+            display: block;
+            margin-top: 15px;
+            color: #000;
+        }
+
+        select {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            padding: 10px 12px;
+            border: 1px solid #ccc;
+            text-align: center;
+        }
+
+        th {
+            background-color: #000;
+            color: #fff;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        .acciones-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .editar-button {
+            background-color: #007BFF;
+            color: #fff;
+            border: none;
+            padding: 5px 10px;
+            cursor: pointer;
+            margin: 0 5px;
+            border-radius: 5px;
+        }
+
+        .borrar-button {
+            background-color: #FF0000;
+            color: #fff;
+            border: none;
+            padding: 5px 10px;
+            cursor: pointer;
+            margin: 0 5px;
+            border-radius: 5px;
+        }
+
+        #ordenar-button {
+            background-color: #000;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+
+            #ordenar-button:hover {
+                background-color: #333;
+            }
+
+
+        #botonContainer {
+            position: absolute;
+            bottom: 3cm;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        #nuevoPlatoButton {
+            background-color: #000;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 18px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+            #nuevoPlatoButton:hover {
+                background-color: #333;
+            }
+    </style>
+</head>
+<body>
+    <div class="menu-container">
+        <h1 style="color: #000;">Menu del restaurante</h1>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>ID PLATO</th>
+                    <th>NOMBRE</th>
+                    <th>PRECIO</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Chaulafan</td>
+                    <td>$5</td>
+                    <td class="acciones-container">
+                        <button class="editar-button" onclick="editarPlato(this)">Editar</button>
+                        <button class="borrar-button" onclick="borrarPlato(this)">Borrar</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Tallarin Mixto</td>
+                    <td>$5.50</td>
+                    <td class="acciones-container">
+                        <button class="editar-button" onclick="editarPlato(this)">Editar</button>
+                        <button class="borrar-button" onclick="borrarPlato(this)">Borrar</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Wantang</td>
+                    <td>$3.50</td>
+                    <td class="acciones-container">
+                        <button class="editar-button" onclick="editarPlato(this)">Editar</button>
+                        <button class="borrar-button" onclick="borrarPlato(this)">Borrar</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <div id="botonContainer">
+            <a href="@Url.Action("Index", "NuevoPlato")">
+                <button id="nuevoPlatoButton">Insertar Nuevo Plato</button>
+            </a>
+        </div>
+    </div>
+
+    <script>
+        function editarPlato(button) {
+            // Lógica para editar plato
+            console.log("Editar plato");
+        }
+
+        function borrarPlato(button) {
+            // Lógica para borrar plato
+            console.log("Borrar plato");
+        }
+    </script>
+</body>
+</html>

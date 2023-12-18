@@ -1,0 +1,109 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = MVCRestaurante
+build_property.RootNamespace = MVCRestaurante
+build_property.ProjectDir = D:\UDLA Trabajos\Semestre 5\Programacio IV\ProyectoP2ApiYMVC\MVCRestaurante\MVCRestaurante\MVCRestaurante\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\UDLA Trabajos\Semestre 5\Programacio IV\ProyectoP2ApiYMVC\MVCRestaurante\MVCRestaurante\MVCRestaurante
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/UDLA Trabajos/Semestre 5/Programacio IV/ProyectoP2ApiYMVC/MVCRestaurante/MVCRestaurante/MVCRestaurante/Views/EditarMenu/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWRpdGFyTWVudVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/UDLA Trabajos/Semestre 5/Programacio IV/ProyectoP2ApiYMVC/MVCRestaurante/MVCRestaurante/MVCRestaurante/Views/Factura/Detalles.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFjdHVyYVxEZXRhbGxlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/UDLA Trabajos/Semestre 5/Programacio IV/ProyectoP2ApiYMVC/MVCRestaurante/MVCRestaurante/MVCRestaurante/Views/Factura/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFjdHVyYVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/UDLA Trabajos/Semestre 5/Programacio IV/ProyectoP2ApiYMVC/MVCRestaurante/MVCRestaurante/MVCRestaurante/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/UDLA Trabajos/Semestre 5/Programacio IV/ProyectoP2ApiYMVC/MVCRestaurante/MVCRestaurante/MVCRestaurante/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/UDLA Trabajos/Semestre 5/Programacio IV/ProyectoP2ApiYMVC/MVCRestaurante/MVCRestaurante/MVCRestaurante/Views/ListaEmpleados/Crear.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlzdGFFbXBsZWFkb3NcQ3JlYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/UDLA Trabajos/Semestre 5/Programacio IV/ProyectoP2ApiYMVC/MVCRestaurante/MVCRestaurante/MVCRestaurante/Views/ListaEmpleados/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlzdGFFbXBsZWFkb3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/UDLA Trabajos/Semestre 5/Programacio IV/ProyectoP2ApiYMVC/MVCRestaurante/MVCRestaurante/MVCRestaurante/Views/ListaUsuarios/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlzdGFVc3Vhcmlvc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/UDLA Trabajos/Semestre 5/Programacio IV/ProyectoP2ApiYMVC/MVCRestaurante/MVCRestaurante/MVCRestaurante/Views/LogIn/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9nSW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/UDLA Trabajos/Semestre 5/Programacio IV/ProyectoP2ApiYMVC/MVCRestaurante/MVCRestaurante/MVCRestaurante/Views/Menu/Crear.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudVxDcmVhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/UDLA Trabajos/Semestre 5/Programacio IV/ProyectoP2ApiYMVC/MVCRestaurante/MVCRestaurante/MVCRestaurante/Views/Menu/Detalles.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudVxEZXRhbGxlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/UDLA Trabajos/Semestre 5/Programacio IV/ProyectoP2ApiYMVC/MVCRestaurante/MVCRestaurante/MVCRestaurante/Views/Menu/Editar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudVxFZGl0YXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/UDLA Trabajos/Semestre 5/Programacio IV/ProyectoP2ApiYMVC/MVCRestaurante/MVCRestaurante/MVCRestaurante/Views/Menu/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/UDLA Trabajos/Semestre 5/Programacio IV/ProyectoP2ApiYMVC/MVCRestaurante/MVCRestaurante/MVCRestaurante/Views/Mesa/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVzYVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/UDLA Trabajos/Semestre 5/Programacio IV/ProyectoP2ApiYMVC/MVCRestaurante/MVCRestaurante/MVCRestaurante/Views/NuevoEmpleado/Crear.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTnVldm9FbXBsZWFkb1xDcmVhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/UDLA Trabajos/Semestre 5/Programacio IV/ProyectoP2ApiYMVC/MVCRestaurante/MVCRestaurante/MVCRestaurante/Views/NuevoPlato/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTnVldm9QbGF0b1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/UDLA Trabajos/Semestre 5/Programacio IV/ProyectoP2ApiYMVC/MVCRestaurante/MVCRestaurante/MVCRestaurante/Views/Orden/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/UDLA Trabajos/Semestre 5/Programacio IV/ProyectoP2ApiYMVC/MVCRestaurante/MVCRestaurante/MVCRestaurante/Views/Orden/Pedido.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZW5cUGVkaWRvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/UDLA Trabajos/Semestre 5/Programacio IV/ProyectoP2ApiYMVC/MVCRestaurante/MVCRestaurante/MVCRestaurante/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/UDLA Trabajos/Semestre 5/Programacio IV/ProyectoP2ApiYMVC/MVCRestaurante/MVCRestaurante/MVCRestaurante/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/UDLA Trabajos/Semestre 5/Programacio IV/ProyectoP2ApiYMVC/MVCRestaurante/MVCRestaurante/MVCRestaurante/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/UDLA Trabajos/Semestre 5/Programacio IV/ProyectoP2ApiYMVC/MVCRestaurante/MVCRestaurante/MVCRestaurante/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/UDLA Trabajos/Semestre 5/Programacio IV/ProyectoP2ApiYMVC/MVCRestaurante/MVCRestaurante/MVCRestaurante/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-zkanl2tyxb

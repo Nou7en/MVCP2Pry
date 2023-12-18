@@ -1,0 +1,116 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #000;
+            color: #000; /* Cambiado a negro */
+            margin: 0;
+            padding: 0;
+        }
+
+        .usuarios-container {
+            max-width: 1500px;
+            margin: 3cm auto 0;
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+
+        h1 {
+            text-align: center;
+            color: #000;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            padding: 10px 12px;
+            border: 1px solid #ccc;
+            text-align: center;
+        }
+
+        th {
+            background-color: #000;
+            color: #fff;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        .acciones-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .borrar-button {
+            background-color: #FF0000;
+            color: #fff;
+            border: none;
+            padding: 5px 10px;
+            cursor: pointer;
+            margin: 0 5px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="usuarios-container">
+        <h1>Listado de Usuarios</h1>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nombre</th>
+                    <th>Apellido</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>John</td>
+                    <td>Doe</td>
+                    <td class="acciones-container">
+                        <button class="borrar-button" onclick="eliminarUsuario(this)">Eliminar Usuario</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Jane</td>
+                    <td>Smith</td>
+                    <td class="acciones-container">
+                        <button class="borrar-button" onclick="eliminarUsuario(this)">Eliminar Usuario</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Alice</td>
+                    <td>Johnson</td>
+                    <td class="acciones-container">
+                        <button class="borrar-button" onclick="eliminarUsuario(this)">Eliminar Usuario</button>
+                    </td>
+                </tr>
+                <!-- Puedes agregar más filas según sea necesario -->
+            </tbody>
+        </table>
+    </div>
+
+    <script>
+        function eliminarUsuario(button) {
+            // Lógica para eliminar usuario
+            console.log("Eliminar usuario");
+        }
+    </script>
+</body>
+</html>
